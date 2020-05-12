@@ -33,9 +33,9 @@
                     </div>
                     @endforeach
                     <div class="col-md-6 text-center p-3">
-                        <div class="card bg-white justify-content-center" style="min-height: 12rem;" wire:click="add()">
+                        <div class="card bg-white justify-content-center" style="min-height: 12rem;">
                             <div class='social-box'>
-                                <a><i class="fa fa-plus fa-5x"></i></a>
+                                <a href="#" wire:click="add()"><i class="fa fa-plus fa-5x"></i></a>
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,7 @@
             <div class="card card-body">
                 <div class="row">
                     @foreach ($accounts as $index => $account)
-                    <div class="col-md-6">
+                    <div class="col-md-6 p-3">
                         <div class="card border">
                             <div class="card-body">
                                 <div class="row">
@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     @endforeach
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6 text-center p-3">
                         <div class="card bg-white justify-content-center" style="min-height: 12rem;" wire:click="add()">
                             <div class='social-box'>
                                 <a><i class="fa fa-plus fa-5x"></i></a>
